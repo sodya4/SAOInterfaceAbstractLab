@@ -10,8 +10,24 @@ package lab3;
  */
 public abstract class IPhoneDevice implements AppleDevice, PhonecallRingBehavior{
     
-    InternetConnectBehavior internetConnectBehavior;
-    PhonecallRingBehavior phonecallRingBehavior;
+    private InternetConnectBehavior internetConnectBehavior;
+    private PhonecallRingBehavior phonecallRingBehavior;
+
+    public InternetConnectBehavior getInternetConnectBehavior() {
+        return internetConnectBehavior;
+    }
+
+    public void setInternetConnectBehavior(InternetConnectBehavior internetConnectBehavior) {
+        this.internetConnectBehavior = internetConnectBehavior;
+    }
+
+    public PhonecallRingBehavior getPhonecallRingBehavior() {
+        return phonecallRingBehavior;
+    }
+
+    public void setPhonecallRingBehavior(PhonecallRingBehavior phonecallRingBehavior) {
+        this.phonecallRingBehavior = phonecallRingBehavior;
+    }
     
     public IPhoneDevice(){}
     

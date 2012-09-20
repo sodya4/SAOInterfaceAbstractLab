@@ -11,9 +11,9 @@ package lab3;
 public class IPhone4S extends IPhoneDevice{
 
     public IPhone4S() {
-        internetConnectBehavior = new InternetConnectWiFi();
-        internetConnectBehavior = new InternetConnect4G();
-        phonecallRingBehavior = new PhonecallRingChime();
+        setInternetConnectBehavior(new InternetConnectWiFi());
+        setInternetConnectBehavior(new InternetConnect4G());
+        setPhonecallRingBehavior(new PhonecallRingChime());
     }
  
 }
