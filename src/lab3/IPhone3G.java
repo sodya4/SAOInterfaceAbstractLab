@@ -9,5 +9,6 @@ package lab3;
  * @author vmware_xp
  */
 public class IPhone3G extends IPhoneDevice{
+
     
 }

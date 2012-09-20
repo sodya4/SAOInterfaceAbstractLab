@@ -8,8 +8,10 @@ package lab3;
  *
  * @author vmware_xp
  */
-public class IPhone4 extends IPhoneDevice{
+public class PhonecallRingChime implements PhonecallRingBehavior{
 
-
+    public void phoneRings() {
+        System.out.println("Chime!!!!!");
+    }
     
 }

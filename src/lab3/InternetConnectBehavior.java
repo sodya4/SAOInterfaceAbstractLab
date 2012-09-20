@@ -8,8 +8,8 @@ package lab3;
  *
  * @author vmware_xp
  */
-public class IPhone4 extends IPhoneDevice{
-
-
+public interface InternetConnectBehavior {
+    
+    public abstract void connectToInternet();
     
 }

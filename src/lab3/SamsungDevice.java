@@ -8,6 +8,11 @@ package lab3;
  *
  * @author vmware_xp
  */
-public class SamsungDevice {
+public abstract class SamsungDevice {
+    
+    InternetConnectBehavior internetConnectBehavior;
+    
+    public SamsungDevice() {}
+    
     
 }

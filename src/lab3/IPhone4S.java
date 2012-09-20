@@ -9,5 +9,11 @@ package lab3;
  * @author vmware_xp
  */
 public class IPhone4S extends IPhoneDevice{
-    
+
+    public IPhone4S() {
+        internetConnectBehavior = new InternetConnectWiFi();
+        internetConnectBehavior = new InternetConnect4G();
+        phonecallRingBehavior = new PhonecallRingChime();
+    }
+ 
 }

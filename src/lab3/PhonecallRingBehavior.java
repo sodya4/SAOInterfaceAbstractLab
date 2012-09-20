@@ -8,6 +8,7 @@ package lab3;
  *
  * @author vmware_xp
  */
-public abstract class IPod implements AppleDevice{
+public interface PhonecallRingBehavior {
     
+    public abstract void phoneRings();
 }

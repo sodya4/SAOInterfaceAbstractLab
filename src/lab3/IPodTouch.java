@@ -8,6 +8,12 @@ package lab3;
  *
  * @author vmware_xp
  */
-public class IPodTouch extends IPod{
+public class IPodTouch implements AppleDevice{
+    InternetConnectBehavior internetConnectBehavior;
+    
+    public IPodTouch() {}
+    
+    internetConnectBehavior = new InternetConnectWiFi();
+    
     
 }
